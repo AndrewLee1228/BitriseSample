@@ -42,7 +42,6 @@ android {
         }
         stage {
             applicationIdSuffix "stage"
-
         }
         dev {
             applicationIdSuffix "dev"
