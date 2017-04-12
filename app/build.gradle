@@ -11,6 +11,26 @@ android {
         versionName "1.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
+
+    productFlavors {
+
+        playStore {
+
+        }
+        live {
+            applicationIdSuffix "live"
+        }
+        stage {
+            applicationIdSuffix "stage"
+        }
+        dev {
+            applicationIdSuffix "dev"
+        }
+        qa {
+            applicationIdSuffix "qa"
+        }
+    }
+
     buildTypes {
         release {
             minifyEnabled false
