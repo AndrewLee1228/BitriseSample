@@ -39,6 +39,7 @@ android {
         }
         live {
             applicationIdSuffix "live"
+
         }
         stage {
             applicationIdSuffix "stage"
